@@ -1,0 +1,18 @@
+[package]
+name = "zksnark"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# bellman = { path = "./bellman" }
+bls12_381 = "0.6.0"
+ff = "0.11.0"
+pairing = "0.21.0"
+rand = "0.8.4"
+rand_core = "0.6.3"
+sha2 = { version = "0.9.8", features = ["compress"]}
+primitive-types = "0.6.1"
+ed25519-zebra = "3"
+generic-array = "0.13.2"
